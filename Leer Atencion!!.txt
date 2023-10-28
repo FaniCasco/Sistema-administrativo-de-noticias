@@ -1,0 +1,30 @@
+Esta carpeta tiene 2 bases de datos: 
+
+* notifaunadb.sql y * id21392048_notifauna_bd
+
+Este sitio esta conectado a la base de datos id21392048_notifauna_bd, actualmente en mi máquina local
+por lo que tuve que cambiarle dos cosas para que pueda funcionar el hosting en el cual lo subi:
+
+https://notifauna.000webhostapp.com/PHP-TP-FANI/index.php
+
+en el archivo ./admin/conexion.php estan los siguientes datos:
+
+<?php
+
+$server_db = "localhost";
+$usuario_db = "id21392048_fanymar";
+$password_db = "Fanymar1987.";
+$base_db = "id21392048_notifauna_bd";
+
+?>
+
+Si quiero utilizar la otra base de datos, notifaunadb, la cual esta en los archivos subidos a 
+GITHUB, tengo que poner estos datos:
+
+<?php
+$server_db = "127.0.0.1";
+$usuario_db = "root";
+$password_db = "";
+$base_db = "notifaunadb";
+
+?>

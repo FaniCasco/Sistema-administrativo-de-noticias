@@ -1,0 +1,145 @@
+body {
+  margin: 0;
+  padding: 0;
+
+}
+
+#title-nuevo-usuario {
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, ;
+}
+
+
+
+.autor {
+  color: #ff3131;
+}
+
+.form-usuario {
+  background-color: rgb(236, 173, 79);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 50vw;
+  height: 80vh;
+  padding: 50px;
+  border-radius: 10px;
+}
+
+.form-usuario .form-control {
+  width: 40vw;
+  background-color: rgb(236, 173, 79);
+}
+
+
+.nav {
+  padding: 5px 5px;
+  max-width: 1000vw;
+  background-color: rgb(130, 138, 138);
+  gap: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+
+}
+
+.nav-menu {
+  margin-top: 20px;
+  padding: 20px 20px;
+  background-color: rgb(236, 173, 79);
+  gap: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+
+}
+
+.nav-menu li a {
+  color: #fcfaf9;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans';
+  font-size: 1.3em;
+
+}
+
+.nav li a {
+  color: #fcfaf9;
+  font-size: 1.1em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans';
+}
+
+.nav li a:hover {
+
+  color: beige;
+  transition: all 0.5s ease-in-out;
+  font-size: 1.1em;
+  transform-style: none;
+  transform: scale(1.2);
+
+  padding: 5px 5px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+.img-portada {
+  width: 100%;
+  height: 50vh;
+}
+
+
+
+.logo {
+  margin-left: 38%;
+  padding-top: 30px;
+  width: 25%;
+}
+
+.btn-volver {
+  background-color: orangered;
+  color: white;
+  font-size: 1em;
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+.btn-volver:hover {
+  background-color: #ff7300;
+  color: white;
+}
+
+#fecha {
+  float: right;
+  color: #063df3;
+  margin-bottom: 20px;
+
+}
+
+#btn-info {
+  color: white;
+  background-color: #ff3131;
+  text-decoration: none;
+}
+
+footer {
+
+  background-color: rgb(130, 138, 138);
+  color: #fcfaf9;
+  padding: 30px 30px;
+  margin-top: 20px;
+  text-align: center;
+
+
+}
+
+footer img {
+  margin-top: 30px;
+}
