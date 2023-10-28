@@ -24,7 +24,7 @@ Al ingresar, vamos a poder ver una barra de navegación con lo siguiente:
 
 Inicio: es la página actual en la que estamos posicionados.
 
-Noticias: aquí se ve un listado de noticias cargadas previamente, y es donde el usuario podrá cargar, editar y eliminar noticias. Cuando hacemos clic en el botón Nueva noticia, (link: https://notifauna.000webhostapp.com/PHP-TP-FANI/admin/noticias_nueva.php) completamos los campos correspondientes, hacemos clic en GUARDAR, veremos un mensaje que confirma que la noticia ha sido guardada. Podremos regresar a la página noticias haciendo clic en el botón REGRESAR.
+Noticias: aquí se ve un listado de noticias cargadas previamente, y es donde el usuario podrá cargar, editar y eliminar noticias. Cuando hacemos clic en el botón Nueva noticia, completamos los campos correspondientes, hacemos clic en GUARDAR, veremos un mensaje que confirma que la noticia ha sido guardada. Podremos regresar a la página noticias haciendo clic en el botón REGRESAR.
 
 Registrarse: aquí veremos un formulario con los datos correspondientes para poder registrarse como usuario: nombre, apellido, usuario y password.
 
